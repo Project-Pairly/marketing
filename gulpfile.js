@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-  sass = require('gulp-sass'),
+  sass = require('gulp-sass')(require('sass'));
   browserSync = require('browser-sync').create(),
   header = require('gulp-header'),
   cleanCSS = require('gulp-clean-css'),
