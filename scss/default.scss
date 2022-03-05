@@ -1,0 +1,80 @@
+// Media breakpoints
+$sm: 576px;
+$md: 768px;
+$lg: 1200px;
+
+//Temp
+$total_h: 3.53 * 100vw;
+$total_h_mobile: 9 * 100vw;
+
+//section heights
+$cover_height: 0.2;
+$about_height: 0.11;
+$track_height: 0.2;
+$speaker_height: 0.1;
+$faq_height: 0.2;
+$schedule_height: 0.19;
+$sponsors_height: 0.23;
+$footer_height: 0.085;
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  box-sizing: content-box;
+  background-color: $dark-green;
+
+  h1,
+  h2 {
+    color: $white;
+  }
+
+  h3,
+  h4 {
+    color: $white;
+  }
+
+  p {
+    color: $white;
+  }
+
+  ul {
+    color: $white;
+  }
+
+  .section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 3;
+    position: relative;
+
+    &#cover {
+      min-height: $cover_height * $total_h;
+    }
+    &#problem {
+      min-height: $about_height * $total_h;
+    }
+    &#why {
+      min-height: $track_height * $total_h;
+    }
+    &#team {
+      min-height: $speaker_height * $total_h;
+    }
+    &#contact {
+      min-height: $faq_height * $total_h;
+    }
+    &#footer {
+      min-height: $schedule_height * $total_h;
+    }
+
+    .content {
+      position: relative;
+      z-index: 3;
+      height: 100%;
+    }
+  }
+}
