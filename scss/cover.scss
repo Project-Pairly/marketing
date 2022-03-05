@@ -1,10 +1,4 @@
 #cover {
-    #landing-video {
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-    }
 
     .navbar {
         width: 100%;
@@ -15,7 +9,7 @@
 
     .navbar-btn {
         padding: 0vw 2vw;
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
 
     #video-overlay {
@@ -30,7 +24,7 @@
     }
 
     #cover-body {
-        padding: 5vw;
+        padding: 3vw;
         z-index: 6;
     }
 

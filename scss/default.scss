@@ -5,18 +5,15 @@ $md: 768px;
 $lg: 1200px;
 
 //Temp
-$total_h: 3.53 * 100vw;
-$total_h_mobile: 9 * 100vw;
+$total_h: 5.4 * 100vw;
 
 //section heights
-$cover_height: 0.2;
-$about_height: 0.11;
-$track_height: 0.2;
-$speaker_height: 0.1;
-$faq_height: 0.2;
-$schedule_height: 0.19;
-$sponsors_height: 0.23;
-$footer_height: 0.085;
+$cover_height: 0.3;
+$problem_height: 0.3;
+$why_height: 0.3;
+$team_height: 0.3;
+$contact_height: 0.3;
+$footer_height: 0.1;
 
 html {
   scroll-behavior: smooth;
@@ -59,24 +56,25 @@ body {
     background-position: center;
     z-index: 3;
     position: relative;
+    padding: 2vw;
 
     &#cover {
       min-height: $cover_height * $total_h;
     }
     &#problem {
-      min-height: $about_height * $total_h;
+      min-height: $problem_height * $total_h;
     }
     &#why {
-      min-height: $track_height * $total_h;
+      min-height: $why_height * $total_h;
     }
     &#team {
-      min-height: $speaker_height * $total_h;
+      min-height: $team_height * $total_h;
     }
     &#contact {
-      min-height: $faq_height * $total_h;
+      min-height: $contact_height * $total_h;
     }
     &#footer {
-      min-height: $schedule_height * $total_h;
+      min-height: $footer_height * $total_h;
     }
 
     .content {
@@ -84,5 +82,12 @@ body {
       z-index: 3;
       height: 100%;
     }
+  }
+
+  #landing-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 }
