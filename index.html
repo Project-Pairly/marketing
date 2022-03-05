@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
-    
-    <!-- Link to local files -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
-    <title>Pairly</title>
-    <meta name="description" content="TODO"/>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+  <!-- Link to local files -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.min.css">
+  <title>Pairly</title>
+  <meta name="description" content="TODO" />
 </head>
 
 <body>
 
-    <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
 
-    <div style="overflow-x: hidden; overflow-y: hidden;">
-        <div id="cover" class="section">
-            <div class="content">
-                <div id="cover-desktop">
-                    <div class="navbar-wrap">
-                        <div class="navbar">
-                            <a href="#cover" class="navbar-btn hidden-mobile">
-                                <h4 class="navbar-txt">logo here</h4>
-                            </a>
-                            <a href="#problem" class="navbar-btn">
-                                <h4 class="navbar-txt">Problem</h4>
-                            </a>
-                            <a href="#why" class="navbar-btn">
-                                <h4 class="navbar-txt">Why Now?</h4>
-                            </a>
-                            <a href="#team" class="navbar-btn">
-                                <h4 class="navbar-txt">Team</h4>
-                            </a>
-                            <a href="#contact" class="navbar-btn">
-                                <h4 class="navbar-txt">Contact</h4>
-                            </a>
-                        </div>
-                    </div>
-                    <div id="page-title">
-                        <h1 class="header">Pairly</h1>
-                    </div>
-                </div>
+  <div style="overflow-x: hidden; overflow-y: hidden;">
+    <div id="cover" class="section">
+      <div class="content">
+        <div id="cover-desktop">
+          <div class="navbar-wrap">
+            <div class="navbar">
+              <a href="#problem" class="navbar-btn">
+                <h4 class="navbar-txt">Problem</h4>
+              </a>
+              <a href="#why" class="navbar-btn">
+                <h4 class="navbar-txt">Why Now</h4>
+              </a>
+              <a href="#team" class="navbar-btn">
+                <h4 class="navbar-txt">Team</h4>
+              </a>
+              <a href="#contact" class="navbar-btn">
+                <h4 class="navbar-txt">Contact</h4>
+              </a>
             </div>
+          </div>
+          <div id="video-overlay"></div>
+          <div id="cover-body">
+            <div id="page-title">
+              <h1 class="header">Pairly</h1>
+            </div>
+            <div id="tagline">
+              Crowdsourced carbon offsets: corporations buy, consumers earn
+            </div>
+          </div>
         </div>
-        <div id="problem" class="section">
-            <h1 class="header">Problem and Solution</h1>
-        </div>
-        <div id="why" class="section">
-            <h1 class="header">Why Now</h1>
-        </div>
-        <div id="team" class="section">
-            <h1 class="header">Team</h1>
-        </div>
-        <div id="contact" class="section">
-            <h1 class="header">Contact</h1>
-        </div>
-        <div id="footer" class="section">
-            <h1 class="header">Footer</h1>
-        </div>
+      </div>
+      <video autoplay muted loop id="landing-video">
+        <source src="assets/landing_video.mp4" type="video/mp4">
+      </video>
     </div>
+    <div id="problem" class="section">
+      <h1 class="header">Problem and Solution</h1>
+    </div>
+    <div id="why" class="section">
+      <h1 class="header">Why Now</h1>
+    </div>
+    <div id="team" class="section">
+      <h1 class="header">Team</h1>
+    </div>
+    <div id="contact" class="section">
+      <h1 class="header">Contact</h1>
+    </div>
+    <div id="footer" class="section">
+      <h1 class="header">Footer</h1>
+    </div>
+  </div>
 
 </body>
+
 </html>

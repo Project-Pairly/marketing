@@ -1,3 +1,4 @@
+
 // Media breakpoints
 $sm: 576px;
 $md: 768px;
@@ -20,11 +21,13 @@ $footer_height: 0.085;
 html {
   scroll-behavior: smooth;
   font-family: "Open Sans", sans-serif;
+  color: $white; 
 }
 
 body {
-  overflow-x: hidden;
+  // overflow-x: hidden;
   box-sizing: content-box;
+  overflow: auto;
   background-color: $dark-green;
 
   h1,
@@ -43,6 +46,11 @@ body {
 
   ul {
     color: $white;
+  }
+  
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
   }
 
   .section {
