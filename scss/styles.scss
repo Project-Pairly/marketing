@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+// import base@
+@import "./_reset.scss";
+@import "./_colors.scss";
+
+// import rules
+@import "./default.scss";
+@import "./cover.scss";
+@import "./problem.scss";
+@import "./why.scss";
+@import "./team.scss";
+@import "./contact.scss";
+@import "./footer.scss";
