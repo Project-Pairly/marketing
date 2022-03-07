@@ -5,14 +5,14 @@ $md: 768px;
 $lg: 1200px;
 
 //Temp
-$total_h: 5.4 * 100vw;
+$total_h: 3.3 * 100vh;
 
 //section heights
-$cover_height: 0.3;
-$problem_height: 0.3;
-$why_height: 0.3;
-$team_height: 0.3;
-$contact_height: 0.3;
+$cover_height: 0.25;
+$problem_height: 0.25;
+$why_height: 0.25;
+$team_height: 0.25;
+$contact_height: 0.25;
 $footer_height: 0.1;
 
 html {
@@ -56,7 +56,6 @@ body {
     background-position: center;
     z-index: 3;
     position: relative;
-    padding: 2vw;
 
     &#cover {
       min-height: $cover_height * $total_h;
