@@ -4,46 +4,139 @@
 <head>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+  <script type="text/javascript" src="js/index.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-  <!-- Link to local files -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/styles.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>Pairly</title>
   <meta name="description" content="TODO" />
 </head>
 
 <body>
+  <div id="cover" class="section">
+    <div class="navbar">
+      <div class="navbar-child">
+        <a href="/" class="navbar-btn">
+          <img src="assets/logo_v1.svg" id="navbar-logo">
+        </a>
+      </div>
+      <div class="navbar-child">
+        <a href="#problem" class="navbar-btn">
+          Problem
+        </a>
+        <a href="#solution" class="navbar-btn">
+          Solution
+        </a>
+        <a href="#team" class="navbar-btn">
+          Team
+        </a>
+        <a href="mailto:awang23@mit.edu;khe@mit.edu" target="_blank" class="navbar-btn">
+          Contact
+        </a>
+      </div>
+    </div>
+    <h1 id="page-title">
+      Pairly
+    </h1>
+    <div id="tagline">
+      Crowdsourced carbon offsets: corporations pay, consumers earn
+    </div>
+  </div>
+  <div id="problem" class="section">
+    <h2 class="section-title">
+      Problem
+    </h2>
+    <div class="punchline">
+      By 2030, climate change will have disrupted the food, transportation, and energy sectors. Our everyday lives will
+      be impacted in unpredictable ways.
+    </div>
+    <div class="vsplit-deck">
+      <div>
+        <h3>The Need for Carbon Offsets</h3>
+        Carbon neutrality is an increasing priority for corporations in all sectors, and simply reducing emissions is
+        not enough, especially in industries difficult to decarbonize. Corporations must pay for carbon offsets through
+        third party offset projects.
+      </div>
+      <div>
+        <h3>Drawbacks of Current Solutions</h3>
+        <ul>
+          <li> <span class="emph">Costly</span> – requires time & money for research & projects valuation </li>
+          <li> <span class="emph">Lack of transparency</span> – end result is not shown to customers </li>
+          <li> <span class="emph">Missing variable</span> – consumers are left out of the equation </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-  <script type="text/javascript" src="js/index.js"></script>
+  <div id="solution" class="section">
+    <h2 class="section-title">
+      Solution
+    </h2>
+    <div class="punchline">
+      We build a marketplace where corporations’ demand for carbon offsets is met by everyday consumers.  
+    </div>
+    <div class="vsplit-deck">
+      <div>
+        <h3>Our Vision</h3>
+        We're building a B2B2C marketplace where corporations’ demand for carbon offsets is met by everyday consumers like their own customers. Individuals earn money by taking carbon negative actions and generating carbon offsets. Corporations buy carbon offsets from our marketplace. 
+      </div>
+      <div>
+        <h3>Where We Win</h3>
+        <ul>
+          <li> <span class="emph">Convenient & cost-effective</span> – cheaper and easier than alternatives </li>
+          <li> <span class="emph">Increased transparency</span> – discloses corporations’ contributions </li>
+          <li> <span class="emph">Social pressure</span> – incentivize carbon friendly decisions from consumers and corporations </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      For more information, check out our <a href="https://drive.google.com/file/d/1r8TYek58MxorYvZBaEqIJF3GerhJbMw7/view?usp=sharing" target="_blank" class="emph">pitch deck</a>.
+    </div>
+  </div>
 
-  <div style="overflow-x: hidden; overflow-y: hidden;">
-    <div id="cover" class="section">
-      <div class="content">
-        <div id="cover-desktop">
-          <div class="navbar-wrap">
-            <div class="navbar">
-              <a href="/" class="navbar-btn navbar-logo">
-                <img src="assets/logo_v1.svg">
-              </a>
-            </div>
-          </div>
-          <div id="video-overlay"></div>
-          <div id="cover-body">
-            <div id="page-title">
-              <h1 class="header">Pairly</h1>
-            </div>
-            <div id="tagline">
-              The Pairly site is currently down for maintenance. We apologize for the inconvenience.
-            </div>
-          </div>
+  <div id="team" class="section">
+    <h2 class="section-title">
+      Team
+    </h2>
+    <div class="vsplit-deck">
+      <div>
+        <h3>Allen Wang</h3>
+        <img class="headshot" src="assets/allen-headshot.png"/>
+        <div class="headshot-description">
+          Previously @ ScaleAI and Google, HackMIT Tech Lead, MIT Poker Club President, Junior @ MIT
+        </div>
+      </div>
+      <div>
+        <h3>Katherine He</h3>
+        <img class="headshot" src="assets/katherine-headshot.png"/>
+        <div class="headshot-description">
+          Previously @ Romulus Capital and Two Sigma, HackMIT President, Sophomore @ MIT
         </div>
       </div>
     </div>
-    <video autoplay muted loop id="landing-video">
-      <source src="assets/landing_video.mp4" type="video/mp4">
-    </video>
+    <div id="contact"> 
+      <div>Interested in joining our team or hearing more from us?</div>
+      <button id="contact-button"><a href="mailto:awang23@mit.edu;khe@mit.edu" target="_blank">
+        Get in touch
+      </a></button>
+    </div>
+  </div>
+  <div id="footer">
+    <a href="#problem" class="navbar-btn">
+      Problem
+    </a>
+    <a href="#solution" class="navbar-btn">
+      Solution
+    </a>
+    <div id="copyright">
+      © 2022 Pairly
+    </div>
+    <a href="#team" class="navbar-btn">
+      Team
+    </a>
+    <a href="mailto:awang23@mit.edu;khe@mit.edu" target="_blank" class="navbar-btn">
+      Contact
+    </a>
   </div>
 
 </body>
