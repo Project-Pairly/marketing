@@ -12,7 +12,8 @@ body {
   margin: 0 auto;
   display: flex;
   flex-flow:row wrap;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 300;
 }
 
 body a, body a:hover, body a:focus, body a:active {
@@ -34,6 +35,7 @@ h3 {
   font-size: 30px;
   margin: 0;
   padding: 10px 0px;
+  font-weight: 400;
 }
 
 ul {
@@ -124,12 +126,12 @@ ul {
 }
 
 #cover {
-  background-image: url("assets/forrest-photo.jpeg");
+  background-image: url("../assets/forrest-photo.jpeg");
   background-size: cover;
 }
 
 #problem {
-  background-image: url("assets/pollution-edit.png");
+  background-image: url("../assets/pollution-edit.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -137,7 +139,7 @@ ul {
 }
 
 #solution {
-  background-image: url("assets/wind-edit.png");
+  background-image: url("../assets/wind-edit.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -145,7 +147,7 @@ ul {
 }
 
 #team {
-  background-image: url("assets/mit-edit.png");
+  background-image: url("../assets/mit-edit.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
